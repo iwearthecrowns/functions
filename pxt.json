@@ -1,5 +1,5 @@
 {
-    "name": "functions",
+    "name": "functionsCCI",
     "description": "",
     "dependencies": {
         "device": "*"
