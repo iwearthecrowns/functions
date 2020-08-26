@@ -45,6 +45,7 @@ function teleportAction () {
         pause(Math.max(300 - 15 * index, 30))
     }
     sunshine()
+    mySprite.say("Whee!", 200)
     pause(20)
     mySprite.setPosition(randint(10, scene.screenWidth() - 10), randint(10, scene.screenHeight() - 10))
 }
