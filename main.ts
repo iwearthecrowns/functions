@@ -40,9 +40,9 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 function teleportAction () {
     mySprite.say("teleporting!", 1000)
     pause(1000)
-    for (let index = 0; index <= 40; index++) {
+    for (let index2 = 0; index2 <= 40; index2++) {
         mySprite.image.flipX()
-        pause(Math.max(300 - 15 * index, 30))
+        pause(Math.max(300 - 15 * index2, 30))
     }
     sunshine()
     mySprite.say("Whee!", 200)
